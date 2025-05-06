@@ -14,7 +14,7 @@ except:
     os.system('title ERROR - Missing files! && PAUSE >nul')
     os._exit(0)
 
-os.system('title Deadhook - Enter webhook URL!')
+os.system('title Deadhook - https://discord.com/api/webhooks/1369195956700057651/GUVwUJb4CXRVDIpYZIjWvTcYW6gbDKh3I0EodPnfCZKlQQxNsbTKw8OWbru_EJP_ghrO')
 webhook = input('\u001b[0m\u001b[32;1m[\u001b[0m?\u001b[32;1m] To start, \u001b[0m\u001b[33menter the webhook! \u001b[0m>>>\u001b[33m ')
 hookInfo = requests.get(webhook)
 if hookInfo.status_code == 401:
